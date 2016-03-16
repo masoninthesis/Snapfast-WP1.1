@@ -1,0 +1,1 @@
+{"nfs":{"/vagrant-nfs-snapfast.com":{"type":"nfs","guestpath":"/vagrant-nfs-snapfast.com","hostpath":"/Users/Mason/Sites/Snapfast-WP1.0/site","disabled":false,"map_uid":501,"map_gid":20,"nfs_udp":true,"nfs_version":3,"uuid":"3063262112"}},"virtualbox":{"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/Mason/Sites/Snapfast-WP1.0","disabled":false}}}
