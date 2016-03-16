@@ -1,10 +1,10 @@
 # Documentation: https://roots.io/trellis/docs/remote-server-setup/
 wordpress_sites:
-  example.com:
+  snapfast.com:
     site_hosts:
-      - staging.example.com
+      - 104.236.136.60
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
-    repo: git@github.com:example/example.com.git # replace with your Git repo URL
+    repo: git@github.com:masoninthesis/Snapfast-WP1.1 # replace with your Git repo URL
     branch: master
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
     multisite:
@@ -19,8 +19,8 @@ wordpress_sites:
       duration: 30s
     env:
       disable_wp_cron: true
-      wp_home: http://staging.example.com
-      wp_siteurl: http://staging.example.com/wp
+      wp_home: http://104.236.136.60
+      wp_siteurl: http://104.236.136.60/wp
       wp_env: staging
       db_name: example_staging
       db_user: example_dbuser
