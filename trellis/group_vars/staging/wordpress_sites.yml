@@ -6,7 +6,7 @@ wordpress_sites:
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:masoninthesis/Snapfast-WP1.1 # replace with your Git repo URL
     branch: master
-    repo_subtree_path: git@github.com:roots/bedrock.git # relative path to your Bedrock/WP directory in your repo
+    repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
     multisite:
       enabled: false
       subdomains: false
